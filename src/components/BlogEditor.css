@@ -1,0 +1,62 @@
+.editor-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.editor-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.editor-label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.editor-input,
+.editor-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.editor-textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.editor-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.btn {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.draft-btn {
+  background-color: #facc15; 
+  color: #000;
+}
+
+.publish-btn {
+  background-color: #22c55e; 
+  color: #fff;
+}
